@@ -1,0 +1,38 @@
+{
+  "name": "node-whisper-diarization",
+  "description": "Transcription and diarization using Whisper and Pyannote with NodeJS",
+  "homepage": "https://npmjs.com/node-whisper-diarization",
+  "version": "0.0.2",
+  "author": "d-true <devmastery1@gmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && cp -R ./py ./dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/shelljs": "^0.8.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-true/node-whisper-diarization.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "OpenAI",
+    "Whisper",
+    "Transcribe",
+    "Transcriber",
+    "Transcript",
+    "Transcription",
+    "Audio",
+    "Speech",
+    "Speech-to-Text",
+    "Diarization",
+    "Faster-whisper"
+  ]
+}
