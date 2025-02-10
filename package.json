@@ -2,7 +2,7 @@
   "name": "node-diarization",
   "description": "Transcription and diarization using Whisper and Pyannote with NodeJS",
   "homepage": "https://npmjs.com/node-diarization",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "d-true <devmastery1@gmail.com>",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/d-true/node-whisper-diarization.git"
+    "url": "https://github.com/d-true/node-diarization.git"
   },
   "license": "MIT",
   "keywords": [
