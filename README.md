@@ -60,7 +60,7 @@ Unlike openai-whisper, FFmpeg does **not** need to be installed on the system. T
    (c) [`pyannote`](https://github.com/pyannote/pyannote-audio/blob/develop/README.md#tldr)
 
 
-4. Finally `npm i node-whisper-diarization`
+4. Finally `npm i node-diarization`
 
 Ok, we are done! Good job.
 
@@ -70,7 +70,7 @@ Ok, we are done! Good job.
 ### TS
 
 ```javascript
-import WhisperDiarization from 'node-whisper-diarization';
+import WhisperDiarization from 'node-diarization';
 
 // only one required option is pyannote hf auth token
 const options = {
@@ -111,7 +111,7 @@ const options = {
 ### CommonJS
 
 ```javascript
-const { WhisperDiarization } = require('node-whisper-diarization');
+const { WhisperDiarization } = require('node-diarization');
 ```
 
 ### Output
@@ -244,7 +244,7 @@ const options =  {
 Before start, you would like to check all requirements, so we have a static `check` function. Also check options is default `false` in main wd.
 
 ```javascript
-import WhisperDiarization from 'node-whisper-diarization';
+import WhisperDiarization from 'node-diarization';
 
 // options.python (if different from default ones)
 const options = {

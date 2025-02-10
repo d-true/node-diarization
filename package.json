@@ -1,8 +1,8 @@
 {
-  "name": "node-whisper-diarization",
+  "name": "node-diarization",
   "description": "Transcription and diarization using Whisper and Pyannote with NodeJS",
-  "homepage": "https://npmjs.com/node-whisper-diarization",
-  "version": "0.0.2",
+  "homepage": "https://npmjs.com/node-diarization",
+  "version": "0.0.1",
   "author": "d-true <devmastery1@gmail.com>",
   "main": "dist/index.js",
   "scripts": {

@@ -1,11 +1,11 @@
-import diarization from "./src/diarization";
-import recognition, {parseSegmentsChunks} from "./src/recognition";
-import union, {unionRecognitionAndDiarization} from "./src/union";
-import {WhisperDiarizationFinalResult, WhisperDiarizationDataResult} from "./src/types/TaskResult";
-import {Options, PythonOption} from "./src/types/Options";
-import {checkFileAndConvertPathToAbsolute, checkPythonScripts, checkTask} from "./src/checks";
-import {mergeOptions} from "./src/utils";
-import {DEFAULT_OPTIONS} from "./src/constants";
+import diarization from "./diarization";
+import recognition, {parseSegmentsChunks} from "./recognition";
+import union, {unionRecognitionAndDiarization} from "./union";
+import {WhisperDiarizationFinalResult, WhisperDiarizationDataResult} from "./types/TaskResult";
+import {Options, PythonOption} from "./types/Options";
+import {checkFileAndConvertPathToAbsolute, checkPythonScripts, checkTask} from "./checks";
+import {mergeOptions} from "./utils";
+import {DEFAULT_OPTIONS} from "./constants";
 import {EventEmitter} from "node:events";
 
 export class WhisperDiarization extends EventEmitter {
